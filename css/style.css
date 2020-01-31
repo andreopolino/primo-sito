@@ -1,0 +1,70 @@
+*{
+}
+
+/********************** general *******************/
+
+body{
+	font-family: Corbel, Arial, sans-serif;
+}
+
+a{
+	color: #0d0d0d;
+	text-decoration: none;
+}
+
+/******************** header ***********************/
+
+#header {
+	background-color: #6ab47b;
+	
+}
+
+h1{
+	font-size: 36px;
+	margin:0;
+	text-align: center;
+	padding-top: 20px;
+	color:#FFF;
+	text-transform: uppercase;
+}
+
+h2{
+	text-align: center;
+	margin:0;
+}
+
+/****************** nav bar ***********************/
+#nav{
+	background-color: #599a68;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li{
+	display: inline-block;
+	padding: 6px 8px;
+}
+
+#nav li:hover {
+	background-color: #6ab47b;
+}
+
+#nav li a{
+	color: white;
+}
+
+/******************* content *********************/
+
+#content{
+	width: 600px;
+	margin: 30px auto;
+	text-align: justify;
+}
+
+#content a{
+	text-decoration: underline;
+}
+
+#content h4{
+	border-bottom: #599a68 solid 3px;
+}
